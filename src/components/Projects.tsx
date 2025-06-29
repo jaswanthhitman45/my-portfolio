@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { ExternalLink, Github, Eye } from 'lucide-react';
+import gemini from '../assests/gemini.png'; // Adjust the path as necessary
+import Chaty from '../assests/chat.png'
 
 
 const Projects: React.FC = () => {
@@ -27,7 +29,7 @@ const Projects: React.FC = () => {
     {
       title: " Fullstack Chat App! 💬🔥",
       description: "A real-time chat application for private 1-on-1 messaging with user authentication, profile customization, and theme support. Built using the MERN stack with Socket.IO for live communication.",
-      image: "../src/assests/chat.png",
+      image: Chaty,
       technologies: ["React", "Node.js", "Express.js", "MongoDB", "Socket.IO", "Tailwind CSS", "DaisyUI"],
       githubUrl: " https://github.com/jaswanthhitman45/fullstack-chat-app",
       liveUrl: "https://fullstack-chat-app-5-umu1.onrender.com/",
@@ -36,7 +38,7 @@ const Projects: React.FC = () => {
     {
       title: "Gemini AI Clone",
       description: "A front-end web application that replicates Google's Gemini AI chatbot interface. Built using React.js, it features an interactive chat UI, responsive design, smooth animations, and dynamic theming. This was my first project in React, focused on mastering component-based architecture and API integration.",
-      image: "./src/assests/gemini.png", // Replace with your actual project screenshot or a relevant image
+      image: gemini, // Replace with your actual project screenshot or a relevant image
       technologies: ["React.js", " CSS"],
       githubUrl: "https://github.com/jaswanthhitman45/gemini-ai-clone", // Use your actual GitHub link
       liveUrl: "https://gemini-ai-clone-0box.onrender.com/", // Use your actual live demo link

@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Code, Layout, Rocket  } from 'lucide-react';
+import { Code, Layout, Rocket } from 'lucide-react';
+import JaswanthImage from '../assests/Jaswanth.png'; // Adjust the path as necessary
 
 const About: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -98,7 +99,7 @@ const About: React.FC = () => {
               <div className="relative">
                 <div className="relative z-10">
                   <img
-                    src="./src\assests\Jaswanth.png"
+                    src={JaswanthImage}
                     alt="Pothuru Jaswanth - Computer Science Student"
                     className="w-full max-w-md mx-auto rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-300"
                   />
